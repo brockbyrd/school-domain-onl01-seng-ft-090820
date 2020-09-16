@@ -2,8 +2,6 @@
 
 class School
 
-  attr_reader :school, :roster
-
   def initialize(school)
     @school = school
     @roster = {}
@@ -20,6 +18,10 @@ class School
       @roster[grade] = []
     end
     @roster[grade] << student
+  end
+
+  def grade(grade)
+    @grade.values
   end
 
 end
