@@ -9,8 +9,8 @@ class School
     @roster = {}
   end
 
-  def add_student(name, grade)
-    @roster << name
+  def add_student(student, grade)
+    @roster << student
   end
 
 end
