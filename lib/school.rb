@@ -5,7 +5,7 @@ class School
   attr_reader :name
 
   ROSTER = {}
-  
+
   def initialize(name)
     @name = name
   end
@@ -22,5 +22,5 @@ class School
     ROSTER << ROSTER[:grade_level] = full_name
   end
 
-  
+
 end
