@@ -12,7 +12,7 @@ class School
   def add_student(student, grade)
     roster[grade] = []
     roster[grade] << student unless same_grade? { |g| g == grade}
-    
+
   end
 
 end
